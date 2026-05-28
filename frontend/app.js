@@ -24,7 +24,7 @@ const taskEstimate = document.getElementById("taskEstimate");
 const statusChartCtx = document.getElementById("statusChart");
 const categoryChartCtx = document.getElementById("categoryChart");
 
-const tokenKey = "inova_token";
+const tokenKey = "taskinsight_token";
 let statusChart;
 let categoryChart;
 

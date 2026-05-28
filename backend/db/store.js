@@ -8,7 +8,7 @@ const Responsavel = require("../models/Responsavel");
 const StatusHistory = require("../models/StatusHistory");
 const User = require("../models/User");
 
-const MONGO_URI = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/inova_pcd";
+const MONGO_URI = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/taskinsight";
 const localDbPath = path.join(__dirname, "..", "local-db.json");
 let db = null;
 let useMongo = false;

@@ -1,6 +1,6 @@
-# Projeto Inova.PCD
+# Projeto TaskInsight
 
-Aplicação completa com backend, frontend e dados reais do dataset `Inova.PCD`.
+Aplicação completa com backend, frontend e dados reais do dataset `Inova.PCD`, apresentada como plataforma `TaskInsight`.
 
 ## Estrutura
 
@@ -47,7 +47,7 @@ Isso importa:
 
 ## Usuário padrão
 
-- Email: `admin@inova.com`
+- Email: `admin@taskinsight.com`
 - Senha: `senha123`
 
 ## Executar a aplicação

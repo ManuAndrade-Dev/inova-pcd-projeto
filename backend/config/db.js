@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const MONGO_URI = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/inova_pcd";
+const MONGO_URI = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/taskinsight";
 
 const connectDB = async () => {
   try {

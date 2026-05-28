@@ -1,7 +1,7 @@
 {
-  "name": "inova-pcd-backend",
+  "name": "taskinsight-backend",
   "version": "1.0.0",
-  "description": "API backend para projeto Inova.PCD",
+  "description": "API backend para Projeto TaskInsight",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

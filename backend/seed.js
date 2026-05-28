@@ -72,10 +72,10 @@ const seed = async () => {
   await dbStore.insertStatusHistory(statusDocs);
 
   const adminSenha = await bcrypt.hash("senha123", 10);
-  await dbStore.createUser({ name: "Admin Inova", email: "admin@inova.com", password: adminSenha });
+  await dbStore.createUser({ name: "Admin TaskInsight", email: "admin@taskinsight.com", password: adminSenha });
 
   console.log("Seed concluído. Dados importados.");
-  console.log("Usuário padrão: admin@inova.com / senha123");
+  console.log("Usuário padrão: admin@taskinsight.com / senha123");
   process.exit(0);
 };
 
