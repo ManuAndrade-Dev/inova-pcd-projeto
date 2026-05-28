@@ -29,19 +29,23 @@ exports.register = async (req, res) => {
 exports.login = async (req, res) => {
   try {
     const { email, password } = req.body;
+    console.log('LOGIN ATTEMPT', { email, hasPassword: Boolean(password) });
     if (!email || !password) {
       return res.status(400).json({ error: "Email e senha são obrigatórios" });
     }
     const user = await dbStore.getUserByEmail(email);
+    console.log('LOGIN USER', user ? { email: user.email, id: user.id || user._id } : null);
     if (!user) {
       return res.status(400).json({ error: "Credenciais inválidas" });
     }
     const senhaValida = await bcrypt.compare(password, user.password);
+    console.log('LOGIN CHECK', { senhaValida });
     if (!senhaValida) {
       return res.status(400).json({ error: "Credenciais inválidas" });
     }
     res.json({ token: gerarToken(user.id || user._id) });
   } catch (error) {
+    console.error('LOGIN ERROR', error);
     res.status(500).json({ error: "Erro no login" });
   }
 };
