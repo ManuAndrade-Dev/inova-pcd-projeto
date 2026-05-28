@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inova.PCD Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Dashboard Inova.PCD</h1>
+    <p>Aplicação completa com backend, autenticação, CRUD e análises.</p>
+  </header>
+
+  <main>
+    <section id="auth-section" class="card">
+      <h2>Login</h2>
+      <p>Use <strong>admin@inova.com</strong> / <strong>senha123</strong> ou registre um usuário.</p>
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="seu@email.com" />
+      </div>
+      <div class="form-row">
+        <label for="password">Senha</label>
+        <input id="password" type="password" placeholder="senha" />
+      </div>
+      <div class="buttons">
+        <button id="loginBtn">Entrar</button>
+        <button id="registerBtn" class="secondary">Registrar</button>
+      </div>
+      <div id="authMessage" class="message"></div>
+    </section>
+
+    <section id="controls" class="card hidden">
+      <div class="tasks-header">
+        <h2>Gerenciar Tarefas</h2>
+        <button id="logoutBtn" class="secondary">Sair</button>
+      </div>
+      <div class="task-form">
+        <h3>Criar nova tarefa</h3>
+        <div class="form-row"><label>Título</label><input id="taskTitle" type="text" /></div>
+        <div class="form-row"><label>Descrição</label><input id="taskDesc" type="text" /></div>
+        <div class="form-row"><label>Categoria</label><input id="taskCategory" type="text" placeholder="Ex: Acessibilidade Digital" /></div>
+        <div class="form-row"><label>Status</label><select id="taskStatus"><option value="pendente">pendente</option><option value="andamento">andamento</option><option value="concluida">concluida</option></select></div>
+        <div class="form-row"><label>Prioridade</label><select id="taskPriority"><option value="baixa">baixa</option><option value="media">media</option><option value="alta">alta</option></select></div>
+        <div class="form-row"><label>Responsável</label><input id="taskOwner" type="text" placeholder="Ex: Ana Ribeiro" /></div>
+        <div class="form-row"><label>Público-alvo</label><input id="taskPublic" type="text" placeholder="Ex: Geral" /></div>
+        <div class="form-row"><label>Estimativa horas</label><input id="taskEstimate" type="number" min="0" /></div>
+        <div class="buttons"><button id="createTaskBtn">Criar tarefa</button></div>
+      </div>
+    </section>
+
+    <section id="summary" class="card">
+      <h2>Resumo do dataset</h2>
+      <div id="resumo">Carregando...</div>
+      <div class="chart-row">
+        <div><canvas id="statusChart"></canvas></div>
+        <div><canvas id="categoryChart"></canvas></div>
+      </div>
+    </section>
+
+    <section id="tasks" class="card">
+      <h2>Lista de tarefas</h2>
+      <div class="filters">
+        <select id="filterStatus"><option value="">Todos os status</option><option value="pendente">pendente</option><option value="andamento">andamento</option><option value="concluida">concluida</option></select>
+        <input id="filterCategory" type="text" placeholder="Filtrar por categoria" />
+        <button id="applyFilterBtn">Aplicar filtro</button>
+        <button id="clearFilterBtn" class="secondary">Limpar filtro</button>
+      </div>
+      <div id="lista">Carregando...</div>
+    </section>
+
+    <section id="analytics" class="card">
+      <h2>Métricas</h2>
+      <div id="analyticsContent">Carregando métricas...</div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

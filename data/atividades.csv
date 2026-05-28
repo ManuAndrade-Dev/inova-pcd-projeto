@@ -1,0 +1,66 @@
+id,titulo,descricao,categoria,status,prioridade,responsavel,papel_responsavel,publico_alvo,estimativa_horas,horas_gastas,data_criacao,data_conclusao
+1,Adequar banheiros (PNE) no andar 3,Barras de apoio e largura de porta,Adaptacao de Ambiente Fisico,concluida,alta,Felipe Andrade,QA,Visual,16,15,2025-12-11,2026-01-10
+2,Estabelecer parceria com Instituto Caminhar,Reuniao com diretoria e contrato,Inclusao na Empregabilidade,andamento,media,Bruno Costa,Designer UX,Auditiva,40,14,2026-04-17,
+3,Adaptar comunicados internos para leitura facil,Versao simplificada paralela,Comunicacao Inclusiva,andamento,alta,Diego Martins,Dev Back,Auditiva,16,9,2026-02-23,
+4,Configurar narrador do Windows nos PCs do laboratorio,Atalhos e perfis salvos,Tecnologia Assistiva,concluida,alta,Felipe Andrade,QA,Visual,16,17,2025-11-02,2025-11-08
+5,Mapear vagas abertas elegiveis para Lei de Cotas,Levantamento por departamento e nivel,Inclusao na Empregabilidade,pendente,alta,Diego Martins,Dev Back,Geral,2,0,2026-01-20,
+6,Revisar descricoes de vagas para linguagem inclusiva,Remover termos capacitistas,Inclusao na Empregabilidade,andamento,media,Diego Martins,Dev Back,Auditiva,80,12,2026-05-13,
+7,Criar guia de linguagem inclusiva,Documento publicado na wiki,Comunicacao Inclusiva,pendente,baixa,Bruno Costa,Designer UX,Visual,60,0,2026-05-06,
+8,Documentar guia de acessibilidade para devs,Checklist WCAG aplicado ao stack interno,Acessibilidade Digital,concluida,baixa,Eduarda Souza,Especialista Acessibilidade,Visual,16,20,2026-02-06,2026-02-25
+9,Revisar estrutura semantica HTML do blog,Corrigir hierarquia de headings h1-h6,Acessibilidade Digital,pendente,media,Bruno Costa,Designer UX,Visual,60,0,2025-11-25,
+10,Avaliar lupa eletronica para colaborador com baixa visao,Especificar modelo e fornecedor,Tecnologia Assistiva,andamento,baixa,Felipe Andrade,QA,Intelectual,80,16,2026-01-03,
+11,Avaliar softwares de transcricao automatica,"Comparar 3 opcoes (Otter, Whisper, Verbit)",Tecnologia Assistiva,concluida,media,Ana Ribeiro,Dev Front,Auditiva,4,3,2026-03-05,2026-04-28
+12,Criar canal anonimo para feedback de candidatos PcD,Form + tratamento de dados,Inclusao na Empregabilidade,concluida,alta,Camila Lopes,Product Manager,Geral,8,10,2026-02-17,2026-03-29
+13,Adicionar legenda automatica em videos do canal interno,Integrar API de transcricao,Acessibilidade Digital,andamento,media,Diego Martins,Dev Back,Geral,4,1,2026-04-19,
+14,Sistema interno de gestao de adaptacoes,Workflow de solicitacao e aprovacao,Plataforma Interna,concluida,media,Camila Lopes,Product Manager,Visual,24,22,2026-05-23,2026-05-25
+15,Treinar squad de produto em design inclusivo,Workshop pratico de 3h,Capacitacao de Equipes,concluida,baixa,Bruno Costa,Designer UX,Geral,16,15,2026-03-26,2026-04-12
+16,Painel interno de tarefas com filtro por acessibilidade,Marca tarefas com requisitos especiais,Plataforma Interna,concluida,media,Henrique Alves,Analista Comunicacao,Motora,24,30,2025-12-29,2026-01-14
+17,Contratar interprete de Libras part-time,Disponivel terca e quinta para reunioes,Comunicacao Inclusiva,concluida,baixa,Henrique Alves,Analista Comunicacao,Auditiva,80,101,2025-12-19,2025-12-27
+18,Implementar atalhos de teclado no sistema de aprovacao,Mapear atalhos para acoes frequentes,Acessibilidade Digital,andamento,baixa,Felipe Andrade,QA,Auditiva,40,23,2025-12-24,
+19,Treinamento Libras Basico para gestores,Curso 20h em 5 semanas,Capacitacao de Equipes,concluida,media,Ana Ribeiro,Dev Front,Geral,2,2,2025-11-15,2025-11-20
+20,Testar mouse adaptado para colaborador com mobilidade reduzida,Solicitar 2 modelos para teste,Tecnologia Assistiva,andamento,baixa,Gabriela Pinto,Dev Full,Auditiva,16,12,2026-01-19,
+21,Sensibilizacao sobre deficiencias invisiveis,Painel com colaboradores PcD,Capacitacao de Equipes,pendente,baixa,Ana Ribeiro,Dev Front,Geral,4,0,2026-02-16,
+22,Instalar piso podo-tatil na recepcao,Direcional e alerta,Adaptacao de Ambiente Fisico,concluida,media,Henrique Alves,Analista Comunicacao,Motora,2,1,2026-02-17,2026-04-13
+23,Avaliar adequacao do teste tecnico para candidatos com deficiencia visual,Adaptar para CLI ou leitor de tela,Inclusao na Empregabilidade,andamento,baixa,Camila Lopes,Product Manager,Geral,4,3,2026-01-16,
+24,Implementar dashboard de metricas PcD,"Vagas, contratacoes, retencao por trimestre",Plataforma Interna,concluida,baixa,Camila Lopes,Product Manager,Geral,2,2,2026-03-30,2026-05-06
+25,Configurar elevador com voz e Braille,Validar instalacao + treino do porteiro,Adaptacao de Ambiente Fisico,pendente,media,Gabriela Pinto,Dev Full,Geral,2,0,2025-11-29,
+26,Avaliar acessibilidade da copa,Altura de pia e bebedouro,Adaptacao de Ambiente Fisico,concluida,alta,Eduarda Souza,Especialista Acessibilidade,Visual,4,4,2025-12-10,2025-12-29
+27,Adquirir cadeira ergonomica adaptada,Pedido para 2 colaboradores,Tecnologia Assistiva,pendente,baixa,Ana Ribeiro,Dev Front,Auditiva,4,0,2025-11-09,
+28,Auditar contraste de cores no portal RH,Validar WCAG AA nos textos e botoes principais,Acessibilidade Digital,pendente,alta,Ana Ribeiro,Dev Front,Geral,24,0,2026-01-02,
+29,Auditar PDFs do RH com leitor de tela,Marcar PDFs nao acessiveis para refazer,Acessibilidade Digital,pendente,baixa,Diego Martins,Dev Back,Geral,40,0,2026-05-16,
+30,Padronizar uso de emoji descritivo em comunicacoes,Evitar emoji sem contexto,Comunicacao Inclusiva,concluida,media,Ana Ribeiro,Dev Front,Auditiva,60,42,2026-02-08,2026-02-26
+31,Workshop com instituicao parceira sobre TEA,Convidar especialista externo,Capacitacao de Equipes,pendente,baixa,Eduarda Souza,Especialista Acessibilidade,Intelectual,40,0,2026-05-12,
+32,Implantar sinalizacao tatil nos corredores,Piso podo-tatil andares 1-5,Adaptacao de Ambiente Fisico,andamento,baixa,Eduarda Souza,Especialista Acessibilidade,Geral,2,1,2026-04-19,
+33,Validar zoom 200% sem perda de funcionalidade,Testar 5 telas criticas,Acessibilidade Digital,pendente,media,Camila Lopes,Product Manager,Intelectual,60,0,2026-01-09,
+34,Backup e versionamento das politicas de inclusao,Repositorio interno indexado,Plataforma Interna,pendente,alta,Gabriela Pinto,Dev Full,Geral,2,0,2026-03-01,
+35,Treinar lideres em adaptacao razoavel,Conceito e casos praticos,Capacitacao de Equipes,pendente,media,Diego Martins,Dev Back,Motora,60,0,2025-12-04,
+36,Reservar vagas PcD no estacionamento,Pintura + placa + fiscalizacao,Adaptacao de Ambiente Fisico,concluida,baixa,Diego Martins,Dev Back,Geral,40,33,2026-04-12,2026-05-25
+37,Gravar versao em Libras das politicas internas,Top 5 documentos mais lidos,Comunicacao Inclusiva,pendente,media,Camila Lopes,Product Manager,Intelectual,80,0,2026-03-04,
+38,Implementar etapa de entrevista com interprete,Disponivel sob demanda,Inclusao na Empregabilidade,concluida,media,Gabriela Pinto,Dev Full,Geral,80,85,2026-03-22,2026-05-18
+39,Integrar API de traducao para Libras,Avaliar VLibras e Hand Talk,Plataforma Interna,concluida,media,Diego Martins,Dev Back,Geral,16,18,2026-01-30,2026-03-22
+40,Implantar legenda automatica nas reunioes Teams,Ativar globalmente + treinar usuarios,Tecnologia Assistiva,concluida,baixa,Camila Lopes,Product Manager,Auditiva,80,109,2025-12-13,2025-12-31
+41,Revisar manual do colaborador com foco em clareza,Reduzir jargao e siglas,Comunicacao Inclusiva,pendente,alta,Ana Ribeiro,Dev Front,Geral,2,0,2025-11-24,
+42,Implementar modo alto contraste no dashboard,Botao de alternancia + persistencia da escolha,Acessibilidade Digital,andamento,media,Eduarda Souza,Especialista Acessibilidade,Geral,2,1,2026-03-18,
+43,Adicionar atributos ARIA nos formularios institucionais,"Labels, roles e descricoes para leitores de tela",Acessibilidade Digital,concluida,media,Diego Martins,Dev Back,Geral,2,2,2026-05-03,2026-05-25
+44,Capacitacao de RH em recrutamento inclusivo,Curso especifico de 8h,Capacitacao de Equipes,pendente,media,Felipe Andrade,QA,Motora,16,0,2026-04-21,
+45,Implementar tag de acessibilidade nos posts internos,Sinaliza versao em Libras / leitura facil,Comunicacao Inclusiva,concluida,media,Camila Lopes,Product Manager,Motora,80,69,2025-11-20,2025-12-20
+46,Corrigir foco visivel em elementos interativos,Outline customizado e visivel,Acessibilidade Digital,pendente,media,Bruno Costa,Designer UX,Geral,8,0,2026-03-17,
+47,Adaptar processo seletivo com videos em Libras,Aplicar em 3 vagas piloto,Inclusao na Empregabilidade,andamento,media,Henrique Alves,Analista Comunicacao,Auditiva,24,5,2026-01-03,
+48,Ajustar tempo de sessao para usuarios com necessidades cognitivas,Estender timeout configurave,Acessibilidade Digital,concluida,media,Bruno Costa,Designer UX,Geral,24,30,2026-04-08,2026-05-25
+49,Implementar navegacao por teclado no sistema de chamados,Permitir uso completo sem mouse,Acessibilidade Digital,concluida,alta,Bruno Costa,Designer UX,Geral,4,4,2025-11-09,2025-11-12
+50,Publicar relatorio anual de diversidade,Dados consolidados + comparativo anual,Plataforma Interna,concluida,media,Ana Ribeiro,Dev Front,Auditiva,40,49,2026-02-14,2026-04-08
+51,Adicionar audiodescricao nos videos institucionais,Pipeline de pos-producao,Comunicacao Inclusiva,concluida,baixa,Gabriela Pinto,Dev Full,Motora,60,59,2026-05-06,2026-05-11
+52,Capacitacao em comunicacao inclusiva,Modulo de 4h para todos os times,Capacitacao de Equipes,pendente,media,Camila Lopes,Product Manager,Visual,4,0,2025-12-18,
+53,Implementar onboarding diferenciado para PcD,Material em multiplos formatos,Plataforma Interna,pendente,baixa,Diego Martins,Dev Back,Motora,8,0,2026-05-21,
+54,Pesquisar headset com cancelamento de ruido para colaborador autista,Comparar 3 modelos,Tecnologia Assistiva,andamento,alta,Diego Martins,Dev Back,Motora,80,28,2026-03-19,
+55,Workshop sobre etiqueta na convivencia com PcD,2h presencial + online,Capacitacao de Equipes,andamento,media,Gabriela Pinto,Dev Full,Geral,80,20,2025-12-19,
+56,Definir KPIs trimestrais de contratacao PcD,Meta por trimestre + responsaveis,Inclusao na Empregabilidade,concluida,media,Camila Lopes,Product Manager,Intelectual,2,2,2026-05-04,2026-05-22
+57,Criar formulario de adaptacao razoavel,Padrao corporativo + fluxo de aprovacao,Plataforma Interna,pendente,media,Camila Lopes,Product Manager,Auditiva,8,0,2026-05-24,
+58,Instalar rampa de acesso no estacionamento,Lateral norte com aprovacao do sindico,Adaptacao de Ambiente Fisico,concluida,alta,Henrique Alves,Analista Comunicacao,Geral,4,3,2025-12-25,2026-01-28
+59,Configurar texto alternativo em imagens do site,Padronizar uso de alt em CMS,Acessibilidade Digital,concluida,alta,Camila Lopes,Product Manager,Geral,60,56,2025-12-10,2025-12-25
+60,Revisar iluminacao para colaboradores com baixa visao,Areas comuns e estacoes de trabalho,Adaptacao de Ambiente Fisico,concluida,alta,Ana Ribeiro,Dev Front,Motora,8,9,2026-01-07,2026-01-19
+61,Treinar gestores sobre Lei 8.213/91,Workshop 2h com case real,Inclusao na Empregabilidade,pendente,media,Eduarda Souza,Especialista Acessibilidade,Geral,60,0,2026-03-30,
+62,Estudar caso de empresa benchmark em inclusao,Documento com aprendizados aplicaveis,Inclusao na Empregabilidade,concluida,baixa,Bruno Costa,Designer UX,Geral,24,29,2026-01-27,2026-02-05
+63,Adquirir 5 teclados ergonomicos,Aprovacao + compra + distribuicao,Tecnologia Assistiva,concluida,media,Ana Ribeiro,Dev Front,Geral,40,41,2025-11-29,2025-12-24
+64,Implementar acompanhamento dos primeiros 90 dias,Checkpoint quinzenal com novos colaboradores PcD,Inclusao na Empregabilidade,pendente,media,Diego Martins,Dev Back,Auditiva,40,0,2026-05-15,
+65,Testar leitor de tela NVDA na intranet,Cobertura das 10 paginas mais acessadas,Acessibilidade Digital,pendente,media,Gabriela Pinto,Dev Full,Auditiva,80,0,2026-03-31,
